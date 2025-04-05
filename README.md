@@ -17,8 +17,9 @@ The interpreter is a work in progress, but it works for simple expressions.
 Setup env vars (sample in doc\env.bat.sample)
 
 Tested with
-    - Windows 10
-    - Java 1.5
-    - Flex 4.6
+
+- Windows 10
+- Java 1.5
+- Flex 4.6
 
 

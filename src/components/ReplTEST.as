@@ -12,8 +12,10 @@ package componentes
         public function ReplTEST() {
 			var repl:REPL = new REPL();
 			var exps:String = ""+
-            "(defmacro add (a b) (list '+ a b))"+
-            "(add 4 5)";
+            "(def 'k 119)"+
+            "(def 'u 11)"+
+            "(if (neq u k) k false)"
+            ;
 			trace(
 				JSON.stringify(
 					repl.run(exps)
